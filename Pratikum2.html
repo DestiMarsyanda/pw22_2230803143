@@ -1,0 +1,137 @@
+<html>
+
+<head>
+    <title>Form Input Biodata</title>
+</head>
+
+<body>
+    <table border="1" bordercolor="black">
+        
+        <tr>
+            <td>
+                <head>
+                    <h1 align="center"><font color="pink">Biodata Diri</font></h1> 
+                </head>
+            </td>
+        </tr>
+        <tr>
+          <td>
+              <form name="form.input">
+                  <table>
+        <tr>
+            <td><label for="nama">1.Nama</label></td>
+            <td>:</td>
+            <td><input type="text" size="20" name="nama" id="nama" /></td>
+            <td rowspan="5" align="center"><img src="img.jpg" width="100"></td>
+        </tr>
+        <tr>
+            <td><label for="nrp">2.NRP</label></td>
+            <td>:</td>
+            <td><input type="text" size="20" name="nrp" id="nrp" /></td>
+        </tr>
+        <tr>
+            <td><label for="kls">3.Kelas</label></td>
+            <td>:</td>
+            <td><input type="text" size="20" name="kelas" id="kelas" /></td>
+        </tr> 
+        <tr> 
+            <td>4.Jenis Kelamin</td> 
+            <td>:</td> 
+            <td><input name="radJk" type="radio" 
+    value="1" checked> 
+     Pria 
+                <input type="radio" name="radJk" 
+    value="2"> 
+    Wanita</td>
+        </tr> 
+        <tr> 
+            <td>5.Agama</td> 
+            <td>:</td> 
+            <td><select name="comboreligion" id="comboreligion"> 
+                <option>Islam</option> 
+                <option>Kristen</option> 
+                <option>Hindu</option> 
+                <option>Budha</option> 
+                </select></td>  
+        </tr>
+        <tr>
+            <td><label for="ttl">6.Tempat/Tanggal Lahir</label></td>
+            <td>:</td>
+            <td>
+                <input type="text" size="20" name="tempat" />
+                 /
+                <input type="text" size="20" name="tgl,bln,thn" />
+                <td><center>pasfoto</center></td>
+        </tr> 
+        <tr> 
+            <td>7.Alamat</td> 
+            <td>&nbsp;</td> 
+            <td><textarea name="txtAlamat" cols="40" 
+            rows="4" id="txtAlamat"></textarea></td> 
+        </tr>
+        <tr>
+            <td><label for="riwayat">8. Riwayat pendidikan</label></td>
+            <td>:</td>
+        </tr>
+        <tr>
+            <td><label for="sd">a. SD</label></td>
+            <td>:</td>
+            <td><input type="text" size="20" name="sd" /></td>
+        </tr >
+        <tr>
+            <td><label for="smp">b. SMP</label></td>
+            <td>:</td>
+            <td><input type="text" size="20" name="smp" /></td>
+        </tr>
+        <tr>
+            <td><label for="sma">c. SMA</label></td>
+            <td>:</td>
+            <td><input type="text" size="20" name="sma" /></td>
+        </tr>
+        <tr>
+            <td><label for="email">9. Email</label></td>
+            <td>:</td>
+            <td><input type="text" size="20" name="email" id="email" /></td>
+        </tr>
+        <tr>
+            <td><label for="homepage">10. Homepage</label></td>
+            <td>:</td>
+            <td><input type="text" size="20" name="homepage" id="homepage" /></td>
+           
+        </tr> 
+        <tr> 
+            <td>11. Hobby</td> 
+            <td>&nbsp;</td> 
+            <td><textarea name="txtHobby" cols="40" 
+            rows="4" id="txtHobby"></textarea></td> 
+        </tr>
+        <tr>
+            <td><label for="interest">12. Interest</label></td>
+            <td>:</td>
+            <td>
+                <input type="checkbox" name="interest[]" id="komputer" value="Komputer" />
+                <label for="komputer">Komputer</label>
+                <input type="checkbox" name="interest[]" id="sport" value="Sport" />
+                <label for="sport">Sport</label>
+                <input type="checkbox" name="interest[]" id="travelling" value="Travelling" />
+                <label for="travelling">Travelling</label>
+                <input type="checkbox" name="interest[]" id="writing" value="Writing" />
+                <label for="writing">Writing</label>
+                <input type="checkbox" name="interest[]" id="reading" value="Reading" />
+                <label for="reading">Reading</label>
+            <td>
+        </tr> 
+        <tr> 
+            <td>&nbsp;</td> 
+            <td>&nbsp;</td> 
+            <td><input name="btnSimpan" type="submit" 
+                id="btnSimpan" value="Simpan"> 
+                    <input name="btnReset" type="reset" 
+                id="btnReset" value="Reset"></td>     
+        </tr> 
+            </table> 
+    </form> 
+    </body> 
+
+</html>
+                    
