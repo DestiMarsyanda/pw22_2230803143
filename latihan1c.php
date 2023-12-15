@@ -7,7 +7,7 @@
                     margin:30px;
                     height:20px;
                     padding:10px;
-                    text-align;center;
+                    text-align:center;
                 }
                 </style>
                 </head>
